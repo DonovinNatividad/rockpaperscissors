@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color:black;
+    font-size: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+#outcome {
+    padding: 30px;
+}
+
+.item {
+    max-width: 125px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.scoreboard {
+    font: bold;
+}
